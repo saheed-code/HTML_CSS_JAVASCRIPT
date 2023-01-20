@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redact App</title>
+    <link rel="stylesheet" href="scramble.css" />
+  </head>
+  <body>
+    <div class="body">
+      <main>
+        <h1>REDACTR</h1>
+        <p>Scramble some words from a body of text</p>
+        <form>
+          <div class="ori-text">
+            <label for="ori-text">Text goes here:</label><br>
+            <textarea id="ori-text" name="ori-text" rows="7" cols="70" required></textarea>
+          </div>
+          <div class="scr-text">
+            <label for="scr-text">Specify the words you want to scramble here: </label><br>
+            <input type="text" id="scr-text"  required />
+          </div>
+          <div>
+            <button  class="button" id="button">Redact Now</button>
+          </div>
+          <div id="join"></div>
+        </form>
+        
+      </main>
+    </div>
+    <script src="scramble.js"></script>
+  </body>
+</html>

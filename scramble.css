@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(242, 231, 231);
+}
+
+h1{
+    color: red;
+    font-size: 50px;
+}
+
+.body{
+    margin-top: 100px;
+    background-color: white;
+    /* border: 2px solid black; */
+    width: 700px;
+    text-align: center;
+    margin-inline: auto;
+    padding: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0.1px 0.1px 30px black;
+}
+
+.ori-text{
+    padding-bottom: 20px;
+}
+
+.ori-text{
+    padding-top: 20px;
+}
+
+.button{
+    margin-top: 20px;
+    height: 35px;
+    width: 120px;  
+    border: none;
+    color: white;
+    background-color: red; 
+}
+
+#scr-text{
+    width: 536px;
+    height: 35px;
+}
+#join{
+    margin-inline: auto;
+    margin-top: 12px;
+    margin-bottom: 40px;
+    text-align: left;
+    border: 1px solid black;
+    width: 536px;
+    height: 75px;
+}
